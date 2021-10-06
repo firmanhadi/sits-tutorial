@@ -1,0 +1,16 @@
+book_filename: "sits-tutorial"
+chapter_name: "Bab"
+repo: https://github.com/firmanhadi/sits-tutorial
+output_dir: docs
+rmd_files: ["index.Rmd", "01-intro.Rmd"]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
+language:
+  label:
+    fig: 'Gambar'
+    tab: 'Tabel'
+    eq: 'Rumus'
+  ui:
+    edit: Edit
+    chapter_name: "Chapter "
+delete_merged_file: true
